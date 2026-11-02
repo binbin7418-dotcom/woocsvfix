@@ -1,0 +1,10 @@
+ID,Type,SKU,Name,Published,Regular price,Sale price,Categories,Images,In stock?,Stock,Parent
+1,simple,MUG-001,  Stoneware Mug  ,1,19.99,,Kitchen,https://example.com/mug.jpg,1,40,
+2,Simple,TEE-001,Logo Tee,yes,"$1,299.00",,Apparel,https://example.com/tee.jpg,yes,15,
+3,simple,TEE-001,Logo Tee (relisted),1,25.00,,Apparel,https://example.com/tee2.jpg,1,5,
+4,variable,HOOD-001,Hoodie,1,,,Apparel,https://example.com/hood.jpg,1,,
+5,variation,HOOD-001-M,Hoodie - M,1,49.99,,Apparel,,1,8,HOOD-001
+6,variation,GHOST-001-M,Ghost - M,1,39.99,,Apparel,,1,3,GHOST-001
+7,simple,SALE-001,Backwards Sale,1,30.00,45.00,Misc,https://example.com/sale.jpg,1,2,
+8,simple,IMG-001,Local Image Product,1,12.00,,Misc,C:\photos\product.jpg,1,9,
+9,simple,NONAME-001,,1,12.00,,Misc,https://example.com/x.jpg,1,1,
