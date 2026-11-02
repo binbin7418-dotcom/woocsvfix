@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WooCsvFix — WooCommerce product CSV pre-flight: check, fix and re-check before you import</title>
+<style>
+  body { margin:0; font-family: Georgia, 'Times New Roman', serif; background:#101623; color:#e8e4da; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 56px 22px 70px; }
+  h1 { font-size: 42px; line-height:1.12; margin: 0 0 8px; }
+  h1 .accent { color:#ffb454; }
+  .sub { font-size: 19px; color:#b9c0cf; line-height:1.55; margin: 0 0 26px; }
+  .card { background:#171e30; border:1px solid #2a3350; border-radius:12px; padding:20px 22px; margin: 22px 0; }
+  .card h2 { margin:0 0 10px; font-size:20px; color:#ffb454; }
+  .card p, .card li { color:#cfd5e2; line-height:1.6; font-size:16px; }
+  .cta { display:inline-block; background:#ffb454; color:#14100a; font-weight:bold; padding:14px 28px;
+          border-radius:10px; text-decoration:none; font-size:18px; margin: 10px 0 4px; }
+  .price { color:#b9c0cf; font-size:15px; }
+  ul { margin: 6px 0 6px 18px; padding:0; }
+  footer { color:#78829b; font-size:13px; margin-top:36px; line-height:1.6; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Check your WooCommerce CSV <span class="accent">before</span> the importer mangles it.</h1>
+  <p class="sub">WooCommerce's built-in importer silently skips bad rows, updates the wrong product when SKUs collide, and orphans variations whose parent is missing. WooCsvFix pre-flights your product CSV: format errors are fixed automatically, decisions are listed as blocking issues, and the fixed file is re-checked to prove nothing fixable remains.</p>
+  <a class="cta" href="https://binbinster.gumroad.com/l/woocsvfix-woocommerce-csv-preflight">Get WooCsvFix — $29</a>
+  <p class="price">One-time payment. Windows 10/11. No subscription, no account, runs 100% offline.</p>
+
+  <div class="card">
+    <h2>Verified, not vibes</h2>
+    <p>On a seeded 9-product CSV with 10 planted defects: 5 automatic fixes applied ($1,299.00 price cleaned to 1299.00, mixed-case Type normalized, Published 'yes' and In stock? 'yes' normalized, padded name trimmed) and 5 blocking issues listed (duplicate SKU, orphan variation, sale price above regular price, local-path image, empty product name). All 9 rows preserved; re-check found 0 fixable problems (acceptance test 15/15).</p>
+  </div>
+
+  <div class="card">
+    <h2>How it works</h2>
+    <ul>
+      <li>Export or prepare your WooCommerce product CSV and pick it here.</li>
+      <li>WooCsvFix scans every row: prices, types, stock flags, SKUs, variation parents, image URLs.</li>
+      <li>You get products_fixed.csv plus a report: fixes applied, blocking issues by line number, and the re-check verdict.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Honest scope</h2>
+    <p>WooCsvFix checks and fixes the CSV file; it does not import anything into WordPress and never talks to your store. Blocking issues (duplicate SKUs, orphan variations, sale-above-regular) are reported for your decision — rows are never dropped or merged behind your back.</p>
+  </div>
+
+  <a class="cta" href="https://binbinster.gumroad.com/l/woocsvfix-woocommerce-csv-preflight">Get WooCsvFix — $29</a>
+  <footer>WooCsvFix runs entirely on your computer. Your catalog never leaves your machine. No upload, no account, no store access.</footer>
+</div>
+</body>
+</html>
