@@ -1,0 +1,17 @@
+[PASS] rows conserved (9) got 9
+[PASS] price currency/comma cleaned trimmed whitespace in Name | Type 'Simple' normalized to 'simple' | Published 'yes' normalized to '1' | In stock? 'yes' normalized to '1' | Regular price '$1,299.00' cleaned to '1299.00'
+[PASS] Type case normalized 
+[PASS] Published 'yes' normalized 
+[PASS] In stock? 'yes' normalized 
+[PASS] whitespace trimmed 
+[PASS] exactly 5 fixes got 5: trimmed whitespace in Name | Type 'Simple' normalized to 'simple' | Published 'yes' normalized to '1' | In stock? 'yes' normalized to '1' | Regular price '$1,299.00' cleaned to '1299.00'
+[PASS] duplicate SKU blocking 
+[PASS] orphan variation blocking 
+[PASS] sale>regular blocking 
+[PASS] local image blocking 
+[PASS] empty Name blocking 
+[PASS] exactly 5 blocking issues got 5: SKU 'TEE-001' duplicates line 3 — the importer UPDATES the earlier product instead of creating a new one | Sale price 45.00 is higher than Regular price 30.00 — the product will not show as on sale | image 'C:\\photos\\product.jpg' is not a URL — local paths cannot be imported | Name is empty — the importer creates a nameless product or skips the row | variation's Parent SKU 'GHOST-001' does not exist in this file — it will be orphaned
+[PASS] re-check PASS 
+[PASS] fixed CSV keeps all rows + fixed values 
+
+15/15 PASS
